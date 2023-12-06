@@ -38,6 +38,8 @@ se transforma em :
 
 
 
+
+
 1 1 &João Gonzo& 35 '2000-01-10' Engenheiro 3500.00
 2 1 &Maria Laura& 25 '1998-03-01' Secretaria 1700.00
 3 5 &Carlos Inácio& 23 '1999-06-06' Engenheiro 3000.00

@@ -1,0 +1,77 @@
+# Formatador-para-fazer-INSERT
+
+
+
+
+
+& &
+
+se colocar &texto dentro fica imutavel&
+exemplo:
+
+('texto dentro fica imutavel');
+
+
+
+
+1 Engenharia 1230000.00 &Prédio Engenharia&
+2 Marketing 1000000.00 &Prédio 1&
+3 Finanças 2000000.00 &Sala 2&
+4 Diretoria 2500000.00 Mezanino
+5 Informática 950000.00 &Anexo B&
+
+
+se transforma em :
+
+
+(1, 'engenharia', 1230000.00, 'prédio engenharia'),
+(2, 'marketing', 1000000.00, 'prédio 1'),
+(3, 'finanças', 2000000.00, 'sala 2'),
+(4, 'diretoria', 2500000.00, 'mezanino'),
+(5, 'informática', 950000.00, 'anexo b');
+
+
+
+
+
+
+
+
+
+
+
+1 1 &João Gonzo& 35 '2000-01-10' Engenheiro 3500.00
+2 1 &Maria Laura& 25 '1998-03-01' Secretaria 1700.00
+3 5 &Carlos Inácio& 23 '1999-06-06' Engenheiro 3000.00
+4 4 &Camila Pitanga& 34 '1997-02-23' Diretor 15000.00
+5 5 &Pedro Luz& 44 '2003-11-25' Analista 4700.00
+6 4 &Peter Chen& 18 '2005-02-23' Presidente 50000.00
+7 3 &Paulo Coelho& 45 '2002-05-17' Contador 3000.00
+8 4 &Josefina Litre& 31 '1996-10-11' Secretaria 1200.00
+9 5 &Claudia Low& 26 '2000-12-12' Secretaria 1100.00
+10 2 &Luiz Souza& 31 '1997-01-03' Vendedor 2500.00
+11 3 &Mariana Barbosa& 23 '2014-11-22' Básico 1400.00
+12 5 &Carlos Cunha& 42 '2016-09-05' Analista 8700.00
+13 5 &Denis Piter& 44 '2008-03-02' Técnico 3200.00
+14 1 &Maria Luiza& 37 '2009-07-15' Engenheiro 6960.00
+15 1 &Lívia Andrade& 36 '2004-04-19' Técnico 3680.00
+
+
+se transforma em :
+
+
+(1, 1, 'joão gonzo', 35, '2000-01-10', 'engenheiro', 3500.00),
+(2, 1, 'maria laura', 25, '1998-03-01', 'secretaria', 1700.00),
+(3, 5, 'carlos inácio', 23, '1999-06-06', 'engenheiro', 3000.00),
+(4, 4, 'camila pitanga', 34, '1997-02-23', 'diretor', 15000.00),
+(5, 5, 'pedro luz', 44, '2003-11-25', 'analista', 4700.00),
+(6, 4, 'peter chen', 18, '2005-02-23', 'presidente', 50000.00),
+(7, 3, 'paulo coelho', 45, '2002-05-17', 'contador', 3000.00),
+(8, 4, 'josefina litre', 31, '1996-10-11', 'secretaria', 1200.00),
+(9, 5, 'claudia low', 26, '2000-12-12', 'secretaria', 1100.00),
+(10, 2, 'luiz souza', 31, '1997-01-03', 'vendedor', 2500.00),
+(11, 3, 'mariana barbosa', 23, '2014-11-22', 'básico', 1400.00),
+(12, 5, 'carlos cunha', 42, '2016-09-05', 'analista', 8700.00),
+(13, 5, 'denis piter', 44, '2008-03-02', 'técnico', 3200.00),
+(14, 1, 'maria luiza', 37, '2009-07-15', 'engenheiro', 6960.00),
+(15, 1, 'lívia andrade', 36, '2004-04-19', 'técnico', 3680.00);

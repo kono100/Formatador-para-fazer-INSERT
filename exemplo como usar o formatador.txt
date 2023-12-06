@@ -9,6 +9,8 @@ exemplo:
 
 
 
+para finalizar digite apenas exit
+
 
 1 Engenharia 1230000.00 &Prédio Engenharia&
 2 Marketing 1000000.00 &Prédio 1&
